@@ -1,0 +1,14 @@
+:root {
+    /* COLORS */
+    --mainColor: #161C2D;
+    --hoverButton: #473BF0;
+    --borderColor: #E7E9ED;
+    --hoverColor: #FB6D45;
+    
+  
+  
+    /* FONTS */
+    --fontOpen: "Open Sans", sans-serif;
+    --fontRoboto: "Roboto", sans-serif;
+    --fontRubik: "Rubik", sans-serif;
+  }

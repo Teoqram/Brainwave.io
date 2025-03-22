@@ -1,0 +1,10 @@
+@import url("./fonts.css");
+@import url("./variblie.css");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fontRoboto);
+}

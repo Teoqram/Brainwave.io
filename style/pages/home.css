@@ -351,3 +351,49 @@
   align-items: center;
   gap: 20px;
 }
+
+/* section 4 end */
+/* section 5 start */
+
+.main-section5 {
+  background-color:#F4F7FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+
+
+.section5-center{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section5-title {
+  color: var(--mainColor);
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 48px;
+  margin: 100px 0 20px 0;
+}
+.section5-description {
+  opacity: 60%;
+  font-size: 19px;
+  line-height: 32px;
+  max-width: 31rem;   
+  text-align: center;
+  font-weight: 400px;
+  flex-wrap: wrap;
+  margin-bottom: 6.25rem;
+}
+
+.section5-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 100px;
+}

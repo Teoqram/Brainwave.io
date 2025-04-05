@@ -464,3 +464,78 @@
 .mail-icon {
   margin: 100px 0 45px 0;
 }
+/* section 6 end */
+
+/* FOOTER START  */
+/* Ümumi footer üslubu */
+.footer {
+  background: var(--mainColor);
+  color: #fff;
+  padding: 40px 20px;
+}
+
+/* İç divlər üçün container */
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+/* Sol tərəf */
+.footer-left {
+  max-width: 300px;
+}
+
+.footer-section-title1 {
+  font-weight: bold;
+  color: #fff;
+  margin: 50px 0 36px 0;
+  font-size: 28px;
+}
+
+.footer-text {
+  opacity: 60%;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 320px;
+  font-weight: 400px;
+  flex-wrap: wrap;
+  margin-bottom: 36px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 28px;
+  margin-top: 10px;
+}
+
+/* Sağ tərəfdəki linklər */
+.footer-links-container {
+  display: flex;
+  gap: 90px;
+}
+
+.footer-section-title {
+  opacity: 60%;
+  font-size: 16px;
+  font-weight: 400px;
+  margin: 50px 0 36px 0;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-list-item {
+  font-size: 17px;
+  color: #fff;
+}
+/* FOOTER END */

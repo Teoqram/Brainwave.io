@@ -1,108 +1,143 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="az">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Newsletter Subscription</title>
+    <title>Footer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        /* Ümumi footer üslubu */
+        .footer {
+            background: #1a1a1a;
+            color: #fff;
+            padding: 40px 20px;
+        }
+
+        /* İç divlər üçün container */
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        /* Sol tərəf */
+        .footer-left {
+            max-width: 300px;
+        }
+
+        .footer-text {
+            font-size: 14px;
+            color: #aaa;
+        }
+
+        .social-icons {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .social-icon {
+            background: #333;
+            padding: 8px;
+            border-radius: 50%;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            margin: 0;
-            background-color: #f8f9fa;
-        }
-
-        .container {
-            text-align: center;
-            background: white;
-            padding: 30px;
-            border-radius: 8px;
-            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-            width: 400px;
-        }
-
-        .icon {
-            background: #a3e4a8;
-            padding: 15px;
-            border-radius: 50%;
-            display: inline-block;
-            margin-bottom: 15px;
-        }
-
-        .icon img {
             width: 30px;
+            height: 30px;
         }
 
-        h2 {
-            margin: 0 0 10px;
-            color: #222;
-        }
-
-        p {
-            color: #555;
-            font-size: 14px;
-            margin-bottom: 20px;
-        }
-
-        .input-group {
+        /* Sağ tərəfdəki linklər */
+        .footer-links-container {
             display: flex;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            overflow: hidden;
+            gap: 50px;
+        }
+
+        .footer-section-title {
+            font-weight: bold;
             margin-bottom: 10px;
         }
 
-        .input-group input {
-            border: none;
-            padding: 10px;
+        .footer-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-list-item {
             font-size: 14px;
-            outline: none;
-        }
-
-        .input-group button {
-            background: #5f3dc4;
-            color: white;
-            border: none;
-            padding: 100px 0px;
-            cursor: pointer;
-        }
-
-        .input-group button:hover {
-            background: #4a2c9f;
-        }
-
-        .privacy {
-            font-size: 12px;
-            color: #777;
-        }
-
-        .privacy a {
-            color: #5f3dc4;
-            text-decoration: none;
+            color: #aaa;
+            margin-bottom: 5px;
         }
     </style>
-</head>
-<body>
 
-    <div class="container">
-        <div class="icon">
-            <img src="https://cdn-icons-png.flaticon.com/512/725/725643.png" alt="Mail Icon">
+    <footer class="footer">
+        <div class="footer-container">
+
+            <!-- Sol tərəf (Şirkət məlumatı və sosial media) -->
+            <div class="footer-left">
+                <p class="footer-section-title">Brainwave.io</p>
+                <p class="footer-text">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
+                <div class="social-icons">
+                    <span class="social-icon">?</span>
+                    <span class="social-icon">?</span>
+                    <span class="social-icon">?</span>
+                    <span class="social-icon">?</span>
+                </div>
+            </div>
+
+            <!-- Sağ tərəf (Linklər) -->
+            <div class="footer-links-container">
+                <div class="footer-section">
+                    <p class="footer-section-title">Company</p>
+                    <ul class="footer-list">
+                        <li class="footer-list-item">About us</li>
+                        <li class="footer-list-item">Contact us</li>
+                        <li class="footer-list-item">Careers</li>
+                        <li class="footer-list-item">Press</li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <p class="footer-section-title">Product</p>
+                    <ul class="footer-list">
+                        <li class="footer-list-item">Features</li>
+                        <li class="footer-list-item">Pricing</li>
+                        <li class="footer-list-item">News</li>
+                        <li class="footer-list-item">Help desk</li>
+                        <li class="footer-list-item">Support</li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <p class="footer-section-title">Services</p>
+                    <ul class="footer-list">
+                        <li class="footer-list-item">Digital Marketing</li>
+                        <li class="footer-list-item">Content Writing</li>
+                        <li class="footer-list-item">SEO for Business</li>
+                        <li class="footer-list-item">UI Design</li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <p class="footer-section-title">Legal</p>
+                    <ul class="footer-list">
+                        <li class="footer-list-item">Privacy Policy</li>
+                        <li class="footer-list-item">Terms & Conditions</li>
+                        <li class="footer-list-item">Return Policy</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
-        <h2>Get our latest updates</h2>
-        <p>With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
-        
-        <div class="input-group">
-            <input type="email" placeholder="Enter your email">
-            <button>Subscribe</button>
-        </div>
-        
-        <p class="privacy">We’ll never share your details with third parties. <br> 
-            View our <a href="#">Privacy Policy</a> for more info.
-        </p>
-    </div>
+    </footer>
 
 </body>
+
 </html>

@@ -1,0 +1,208 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--mainColor);
+  padding-top: 20px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.header h1 {
+  font-family: var(--fontRubik);
+  font-size: 28px;
+  padding-left: 70px;
+}
+
+.center-ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  transition: background-color 0.3s ease-in-out;
+  font-weight: 700;
+  padding-right: 100px;
+}
+
+.center-ul li:hover a {
+  color: var(--hoverColor);
+}
+
+.right-ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 24px;
+  font-weight: 700;
+  padding-right: 70px;
+}
+.right-ul li:hover a {
+  color: var(--hoverColor);
+}
+/* HEADER END */
+
+/* MAIN START */
+
+.main-section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.main-section1-first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section1-description {
+  opacity: 60%;
+  font-size: 19px;
+  line-height: 32px;
+  max-width: 600px;
+  font-weight: 400px;
+  flex-wrap: wrap;
+  margin-bottom: 36px;
+  color: var(--mainColor);
+  text-align: center;
+}
+
+.section1-title {
+  font-size: 60px;
+  font-weight: 700;
+  color: var(--mainColor);
+  margin: 80px 38px 50px 0;
+}
+
+.main-section1-second {
+  display: flex;
+  /* align-items: center; */
+  max-width: 14000px;
+  margin-top: 100px;
+  gap: 120px;
+  margin-bottom: 86px;
+}
+
+.main-section1-second-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section1-title-second {
+  font-size: 48px;
+  max-width: 450px;
+  line-height: 58px;
+  font-weight: 700;
+  color: var(--mainColor);
+
+}
+
+.main-section1-secondRightFirst {
+  opacity: 60%;
+  font-size: 19px;
+  line-height: 32px;
+  max-width: 500px;
+  font-weight: 400px;
+  flex-wrap: wrap;
+  margin-bottom: 36px;
+  color: var(--mainColor);
+  text-align: left;
+}
+
+.main-section1-secondRightSecond {
+  opacity: 60%;
+  font-size: 19px;
+  line-height: 32px;
+  max-width: 500px;
+  font-weight: 400px;
+  flex-wrap: wrap;
+  margin-bottom: 36px;
+  text-align: left;
+  color: var(--mainColor);
+  letter-spacing: 0.5px;
+  
+}
+
+/* MAIN END */
+
+
+
+
+
+
+
+
+/* FOOTER START  */
+/* Ümumi footer üslubu */
+.footer {
+  background: var(--mainColor);
+  color: #fff;
+  padding: 40px 20px;
+}
+
+/* İç divlər üçün container */
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+}
+
+/* Sol tərəf */
+.footer-left {
+  max-width: 300px;
+}
+
+.footer-section-title1 {
+  font-weight: bold;
+  color: #fff;
+  margin: 50px 0 36px 0;
+  font-size: 28px;
+}
+
+.footer-text {
+  opacity: 60%;
+  font-size: 16px;
+  line-height: 26px;
+  max-width: 320px;
+  font-weight: 400px;
+  flex-wrap: wrap;
+  margin-bottom: 36px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 28px;
+  margin-top: 10px;
+}
+
+/* Sağ tərəfdəki linklər */
+.footer-links-container {
+  display: flex;
+  gap: 90px;
+}
+
+.footer-section-title {
+  opacity: 60%;
+  font-size: 16px;
+  font-weight: 400px;
+  margin: 50px 0 36px 0;
+}
+
+.footer-list {
+  list-style: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer-list-item {
+  font-size: 17px;
+  color: #fff;
+}
+/* FOOTER END */

@@ -95,7 +95,6 @@
   line-height: 58px;
   font-weight: 700;
   color: var(--mainColor);
-
 }
 
 .main-section1-secondRightFirst {
@@ -121,17 +120,97 @@
   text-align: left;
   color: var(--mainColor);
   letter-spacing: 0.5px;
-  
+}
+/*Section 1 END */
+
+/*SECTION 2 START */
+.main-section2 {
+  background-color: #f4f7fa;
+}
+.main-section2-first {
+  display: flex;
+  align-items: center;
+  gap: 96px;
+  text-align: left;
+  justify-content: center;
 }
 
+.main-section2-second {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main-section2-third {
+  max-width: 510px;
+  font-weight: 400;
+  font-size: 19px;
+  opacity: 60%;
+  line-height: 32px;
+  color: var(--mainColor);
+  letter-spacing: 0.5px;
+}
+.main-section2-text {
+  margin-bottom: 40px;
+  font-size: 48px;
+  line-height: 58px;
+  font-weight: 700;
+  color: var(--mainColor);
+  letter-spacing: 0.5px;
+  text-align: start;
+  max-width: 510px;
+}
+
+.main-section2-left {
+  margin: 140px 0 140px 0;
+}
+
+/*section 2 END */
+/* SECTION 3 START */
+
+.main-section3-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 108px;
+}
+
+.section3-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: var(--mainColor);
+    letter-spacing: 0.5px;
+}
+
+.section3-description{
+    opacity: 60%;
+    font-size: 19px;
+    line-height: 32px;
+    max-width: 39rem;     
+    text-align: center;
+    font-weight: 400;
+    flex-wrap: wrap;
+    margin-bottom: 4.3rem;
+    color: var(--mainColor);
+    letter-spacing: 0.5px;
+}
+
+.main-section3-second {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: flex-start; 
+    margin: 0 auto; 
+    max-width: 1160px;
+    margin-bottom: 200px;
+  }
+
+  /* Section 3 END */
+  
+
 /* MAIN END */
-
-
-
-
-
-
-
 
 /* FOOTER START  */
 /* Ümumi footer üslubu */

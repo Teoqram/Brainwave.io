@@ -1,0 +1,202 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: var(--mainColor);
+    padding-top: 20px;
+  }
+  
+  .header h1 {
+    font-family: var(--fontRubik);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: -0.13px;
+    text-align: center;
+    color: var(--mainColor);
+    margin-bottom: 20px;
+  }
+  
+  /* HEADER END */
+  
+  .body1 {
+    background-color: #f8f9fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .title {
+    margin-top: 130px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 65px;
+    letter-spacing: -2px;
+    text-align: center;
+    margin-bottom: 32px;
+    color: var(--mainColor);
+  }
+  
+  .subtitle {
+    opacity: 65%;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 32px;
+    letter-spacing: -0.2px;
+    text-align: center;
+    color: var(--mainColor);
+    margin-bottom: 56px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    padding: 32px;
+    width: 350px;
+    text-align: left;
+    margin: 0 auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #111827;
+  }
+  
+  input {
+    padding: 14px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    margin-bottom: 24px;
+  }
+  
+  input:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 1px #6366f1;
+  }
+  
+  button {
+    margin-top: 44px;
+    height: 56px;
+  
+    background-color: var(--hoverButton);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #4338ca;
+  }
+  
+  .footer-text6 {
+    margin-top: 40px;
+    font-size: 18px;
+    color: var(--mainColor);
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 160px;
+  }
+  
+  .footer-text6 a {
+    color: var(--hoverButton);
+    text-decoration: none;
+  }
+  
+  .footer-text6 a:hover {
+    text-decoration: underline;
+  }
+  
+  /* FOOTER START  */
+  /* Ümumi footer üslubu */
+  .footer {
+    margin-top: 70px;
+    background: var(--mainColor);
+    color: #fff;
+    padding: 40px 20px;
+  }
+  
+  /* İç divlər üçün container */
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+  }
+  
+  /* Sol tərəf */
+  .footer-left {
+    max-width: 300px;
+  }
+  
+  .footer-section-title1 {
+    font-weight: bold;
+    color: #fff;
+    margin: 50px 0 36px 0;
+    font-size: 28px;
+  }
+  
+  .footer-text {
+    opacity: 60%;
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 320px;
+    font-weight: 400px;
+    flex-wrap: wrap;
+    margin-bottom: 36px;
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 28px;
+    margin-top: 10px;
+  }
+  
+  /* Sağ tərəfdəki linklər */
+  .footer-links-container {
+    display: flex;
+    gap: 90px;
+  }
+  
+  .footer-section-title {
+    opacity: 60%;
+    font-size: 16px;
+    font-weight: 400px;
+    margin: 50px 0 36px 0;
+  }
+  
+  .footer-list {
+    list-style: none;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  
+  .footer-list-item {
+    font-size: 17px;
+    color: #fff;
+  }
+  /* FOOTER END */
+  
